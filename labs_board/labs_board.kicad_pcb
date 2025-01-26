@@ -5667,7 +5667,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Adhes" "F.Paste" "F.SilkS" "F.Mask")
-		(uuid "d3cfdc1c-f4b8-49cd-b0b5-e22d8778b859")
+		(uuid "6751b4da-6c99-46e0-9128-aa9e738492dd")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -5687,7 +5687,7 @@
 		)
 		(polygon
 			(pts
-				(xy 205 40) (xy 275 40) (xy 275 140) (xy 205 140)
+				(xy 204 38) (xy 275 38) (xy 275 144) (xy 204 144)
 			)
 		)
 	)
