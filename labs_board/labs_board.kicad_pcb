@@ -3724,6 +3724,19 @@
 	)
 	(gr_poly
 		(pts
+			(xy 140 77) (xy 150 77) (xy 150 98) (xy 140 98)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "61ac2ab2-87d3-442d-b177-39e6d6461dc2")
+	)
+	(gr_poly
+		(pts
 			(xy 45.99 64.47) (xy 45.99 62.1) (xy 49.3 58.8) (xy 52.26 58.8) (xy 52.26 61.32) (xy 48.41 61.32)
 			(xy 48.69 60.89) (xy 48.49 60.89) (xy 48.49 64.47)
 		)
@@ -4113,37 +4126,6 @@
 		(layer "F.Cu")
 		(net 8)
 		(uuid "d90fd564-637f-4ee5-b265-dc4c58ffd4e0")
-	)
-	(zone
-		(net 5)
-		(net_name "/Cap_bulge")
-		(layer "F.Cu")
-		(uuid "789e54f9-1d4a-42d2-8347-858f059cca1e")
-		(hatch edge 0.5)
-		(priority 1)
-		(connect_pads
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 139.18 79.11) (xy 150.58 79.11) (xy 150.58 94.51) (xy 139.18 94.51)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 150.523039 79.129685) (xy 150.568794 79.182489) (xy 150.58 79.234) (xy 150.58 94.386) (xy 150.560315 94.453039)
-				(xy 150.507511 94.498794) (xy 150.456 94.51) (xy 139.304 94.51) (xy 139.236961 94.490315) (xy 139.191206 94.437511)
-				(xy 139.18 94.386) (xy 139.18 79.234) (xy 139.199685 79.166961) (xy 139.252489 79.121206) (xy 139.304 79.11)
-				(xy 150.456 79.11)
-			)
-		)
 	)
 	(zone
 		(net 2)
